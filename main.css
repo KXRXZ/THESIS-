@@ -1,0 +1,56 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFF6EF; /* Optional: matching the background color from the previous example */
+  }
+  
+  .container {
+	text-align: center;
+  }
+  
+  .container h1 {
+	color: black;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  }
+  
+  .inputs {
+	margin-bottom: 20px;
+  }
+ .inputs input[type="text"] {
+  flex: 1;
+  width: 300px; /* Set the width to your desired value */
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 1.4em;
+}
+  
+  .inputs button {
+	padding: 15px 30px; /* Increased padding for the button */
+	font-size: 1.4em; /* Increased font size */
+  }
+  
+  .centered {
+	text-align: left;
+  }
+  
+  .record-button {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px; /* Adjust the value to lower the button */
+  }
+  
+  .record-button img {
+	width: 600px; /* Adjust width as needed */
+	height: auto; /* Maintain aspect ratio */
+  }
+  
+#videoTitle {
+	margin-top: 10px; /* Adjust margin-top as needed */
+	font-size: 1.5em; /* Adjust font size as needed */
+	font-weight: bold; /* Optional: make the text bold */
+	text-align: center; /* Center the text */
+  }
